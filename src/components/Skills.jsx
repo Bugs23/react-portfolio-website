@@ -15,7 +15,7 @@ export default function Skills() {
     // Animation
     const { ref, inView } = useInView({
         triggerOnce: true,
-        rootMargin: '0px 0px',
+        rootMargin: '-50px 0px',
     });
 
     return (
@@ -24,44 +24,44 @@ export default function Skills() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12 text-center">
-                        <ul className={`px-0 pb-5 ${inView ? 'bounce-in-up' : 'hidden-effect'}`} ref={ref}>
-                            <li className="list-inline-item mx-2 mb-3">
+                        <ul className="px-0 pb-5">
+                            <li className={`list-inline-item mx-2 mb-3 ${inView ? 'bounce-in-left' : 'hidden-effect'}`} ref={ref}>
                                 <div className="text-center skills-tile rounded bg-dark p-2">
                                     <DiHtml5 className="skills-icon" />
                                     <p className="mb-2">HTML5</p>
                                 </div>
                             </li>
-                            <li className="list-inline-item mx-2 mb-3">
+                            <li className={`list-inline-item mx-2 mb-3 ${inView ? 'bounce-in-right' : 'hidden-effect'}`} ref={ref}>
                                 <div className="text-center skills-tile rounded bg-dark p-2">
                                     <DiCss3 className="skills-icon" />
                                     <p className="mb-2">CSS3</p>
                                 </div>
                             </li>
-                            <li className="list-inline-item mx-2 mb-3">
+                            <li className={`list-inline-item mx-2 mb-3 ${inView ? 'bounce-in-left' : 'hidden-effect'}`} ref={ref}>
                                 <div className="text-center skills-tile rounded bg-dark p-2">
                                     <DiJavascript className="skills-icon" />
                                     <p className="mb-2">JAVASCRIPT</p>
                                 </div>
                             </li>
-                            <li className="list-inline-item mx-2 mb-3">
+                            <li className={`list-inline-item mx-2 mb-3 ${inView ? 'bounce-in-right' : 'hidden-effect'}`} ref={ref}>
                                 <div className="text-center skills-tile rounded bg-dark p-2">
                                     <DiReact className="skills-icon" />
                                     <p className="mb-2">REACT</p>
                                 </div>
                             </li>
-                            <li className="list-inline-item mx-2 mb-3">
+                            <li className={`list-inline-item mx-2 mb-3 ${inView ? 'bounce-in-left' : 'hidden-effect'}`} ref={ref}>
                                 <div className="text-center skills-tile rounded bg-dark p-2">
                                     <DiBootstrap className="skills-icon" />
                                     <p className="mb-2">BOOTSTRAP</p>
                                 </div>
                             </li>
-                            <li className="list-inline-item mx-2 mb-3">
+                            <li className={`list-inline-item mx-2 mb-3 ${inView ? 'bounce-in-right' : 'hidden-effect'}`} ref={ref}>
                                 <div className="text-center skills-tile rounded bg-dark p-2">
                                     <DiPhotoshop className="skills-icon" />
                                     <p className="mb-2">PHOTOSHOP</p>
                                 </div>
                             </li>
-                            <li className="list-inline-item mx-2 mb-3">
+                            <li className={`list-inline-item mx-2 mb-3 ${inView ? 'bounce-in-left' : 'hidden-effect'}`} ref={ref}>
                                 <div className="text-center skills-tile rounded bg-dark p-2">
                                     <DiIllustrator className="skills-icon" />
                                     <p className="mb-2">ILLUSTRATOR</p>

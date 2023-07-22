@@ -1,12 +1,12 @@
 import { useInView } from 'react-intersection-observer';
-import author from "../assets/profile-pic.png"
+import author from "/images/profile-pic.png"
 
 export default function AboutMe() {
 
     // Animation
     const { ref, inView } = useInView({
         triggerOnce: true,
-        rootMargin: '-200px 0px',
+        rootMargin: '-50px 0px',
     });
 
     return (

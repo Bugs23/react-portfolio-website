@@ -5,7 +5,7 @@ export default function PortfolioCard(props) {
     // Animation
     const { ref, inView } = useInView({
         triggerOnce: true,
-        rootMargin: '-100px 0px',
+        rootMargin: '-50px 0px',
     });
 
 	return (
@@ -13,9 +13,9 @@ export default function PortfolioCard(props) {
 			<div className={`col-lg-6 col-md-6 ${inView ? 'bounce-in-right' : 'hidden-effect'}`} ref={ref}>
 				<div className="text-end">
 					<div className="portfolio-project-image pb-3">
-						<img alt={props.title} className="img-fluid" src={`src/assets/${props.projectImg}`} />
-						<img alt={props.title} className="img-fluid" src={`src/assets/${props.projectImg}`} />
-						<img alt={props.title} className="img-fluid" data-tilt="true" data-tilt-max="3" data-tilt-perspective="500" data-tilt-speed="400" src={`src/assets/${props.projectImg}`} />
+						<img alt={props.title} className="img-fluid" src={`/images/${props.projectImg}`} />
+						<img alt={props.title} className="img-fluid" src={`/images/${props.projectImg}`} />
+						<img alt={props.title} className="img-fluid" data-tilt="true" data-tilt-max="3" data-tilt-perspective="500" data-tilt-speed="400" src={`/images/${props.projectImg}`} />
 					</div>
 				</div>
 			</div>
