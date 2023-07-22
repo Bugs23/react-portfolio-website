@@ -7,7 +7,7 @@ export default function Header() {
     // Animation
     const { ref, inView } = useInView({
         triggerOnce: true,
-        rootMargin: '-50px 0px',
+        rootMargin: '300px',
     });
 
     return (

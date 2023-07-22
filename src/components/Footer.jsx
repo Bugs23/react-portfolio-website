@@ -5,7 +5,7 @@ export default function Footer() {
     // Animation
     const { ref, inView } = useInView({
         triggerOnce: true,
-        rootMargin: '-50px 0px',
+        rootMargin: '100px',
     });
 
     return (
