@@ -30,7 +30,7 @@ export default function Navbar() {
                         <Link smooth={true} to="skills" duration={0} offset={-50} className="nav-link hvr-grow">Skills</Link>
                     </li>
                     <li>
-                        <Link smooth={true} to="portfolio" duration={0} offset={-50} className="nav-link hvr-grow">Portfolio</Link>
+                        <Link smooth={true} to="portfolio" duration={1000} offset={-50} className="nav-link hvr-grow">Portfolio</Link>
                     </li>
                     <li>
                         <Link smooth={true} to="experience" duration={0} offset={-50} className="nav-link hvr-grow">Experience</Link>

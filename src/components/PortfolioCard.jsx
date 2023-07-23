@@ -3,23 +3,27 @@ import { useInView } from 'react-intersection-observer';
 export default function PortfolioCard(props) {
 
     // Animation
-    const { ref, inView } = useInView({
+    const inViewOptions = {
         triggerOnce: true,
-        rootMargin: '400px',
-    });
+        threshold: 0.2
+    }
+
+    const { ref: ref1, inView: inView1 } = useInView(inViewOptions);
+
+    const { ref: ref2, inView: inView2 } = useInView(inViewOptions);
 
 	return (
 		<div className="row portfolio-row-flex">
-			<div className={`col-lg-6 col-md-6 ${inView ? 'bounce-in-right' : 'hidden-effect'}`} ref={ref}>
+			<div className="col-lg-6 col-md-6">
 				<div className="text-end">
-					<div className="portfolio-project-image pb-3">
+					<div className={`portfolio-project-image pb-3 ${inView1 ? 'bounce-in-right' : 'hidden-effect'}`} ref={ref1}>
 						<img alt={props.title} className="img-fluid" src={`/images/${props.projectImg}`} />
 						<img alt={props.title} className="img-fluid" src={`/images/${props.projectImg}`} />
 						<img alt={props.title} className="img-fluid" data-tilt="true" data-tilt-max="3" data-tilt-perspective="500" data-tilt-speed="400" src={`/images/${props.projectImg}`} />
 					</div>
 				</div>
 			</div>
-			<div className={`col-lg-6 col-md-6 ${inView ? 'bounce-in-left' : 'hidden-effect'}`} ref={ref}>
+			<div className={`col-lg-6 col-md-6 ${inView2 ? 'bounce-in-left' : 'hidden-effect'}`} ref={ref2}>
 				<div className="portfolio-project-text pb-5 center-text">
 					<div className="format">
 						<div className="format-small-text">
