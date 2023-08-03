@@ -6,9 +6,7 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 export default function Experience() {
     return (
         <div id="experience" className="experience section-wrapper">
-            <div className="d-flex justify-content-center pb-5">
-                <h1 className="text-uppercase">Experience</h1>
-            </div>
+            <h1 className="text-center pb-5 text-uppercase">Experience</h1>
             <div className="container">
                 <VerticalTimeline>
                     <VerticalTimelineElement
@@ -51,7 +49,7 @@ export default function Experience() {
                         <h3 className="vertical-timeline-element-title">Web Designer</h3>
                         <h5 className="vertical-timeline-element-subtitle">DealerOn</h5>
                         <p>
-                            <span>HTML | CSS | Javascript | Jquery | Bootstrap | Jira | Adobe Illustrator | Adobe Photoshop</span>
+                            <span>HTML | CSS | JavaScript | jQuery | Bootstrap | Jira | Adobe Illustrator | Adobe Photoshop</span>
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
