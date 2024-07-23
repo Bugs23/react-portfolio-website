@@ -2,6 +2,22 @@ export default [
     {
         id: 1,
         category: "development",
+        title: "React Component Library",
+        tools: [
+            "devicon-react-original",
+            "devicon-javascript-plain",
+            "devicon-html5-plain",
+            "devicon-sass-original",
+            "devicon-tailwindcss-original"
+        ],
+        description: "A library of custom reusable react components.",
+        projectImg: "component-library.jpg",
+        repoUrl: "https://github.com/Bugs23/React-Component-Library",
+        demoUrl: "https://sparkly-salamander-d438e6.netlify.app/"
+    },
+    {
+        id: 2,
+        category: "development",
         title: "Movie Search",
         tools: [
             "devicon-react-original",
@@ -15,7 +31,7 @@ export default [
         demoUrl: "https://spiffy-meerkat-555c1d.netlify.app"
     },
     {
-        id: 2,
+        id: 3,
         category: "development",
         title: "Meme Generator",
         tools: [
@@ -30,7 +46,7 @@ export default [
         demoUrl: "https://cheery-treacle-8efe5a.netlify.app"
     },
     {
-        id: 3,
+        id: 4,
         category: "development",
         title: "Notes App",
         tools: [
@@ -45,7 +61,7 @@ export default [
         demoUrl: "https://cheery-treacle-8efe5a.netlify.app"
     },
     {
-        id: 4,
+        id: 5,
         category: "development",
         title: "Pic Some",
         tools: [
@@ -60,7 +76,7 @@ export default [
         demoUrl: "https://guileless-tulumba-1aa7c2.netlify.app/"
     },
     {
-        id: 5,
+        id: 6,
         category: "design",
         title: "Boost Mobile Privacy Premium Landing Page",
         tools: [
@@ -72,7 +88,7 @@ export default [
         projectImg: "boost-privacy-premium.jpg"
     },
     {
-        id: 6,
+        id: 7,
         category: "design",
         title: "Boost Mobile Plans Page",
         tools: [
@@ -84,7 +100,7 @@ export default [
         projectImg: "boost-plans-page.jpg",
     },
     {
-        id: 7,
+        id: 8,
         category: "design",
         title: "Boost Mobile Offers Page",
         tools: [
@@ -96,7 +112,7 @@ export default [
         projectImg: "boost-offers-page.jpg",
     },
     {
-        id: 8,
+        id: 9,
         category: "design",
         title: "Jeep Wrangler Model Research Page",
         tools: [
@@ -110,7 +126,7 @@ export default [
         projectImg: "2018-jeep-wrangler.jpg"
     },
     {
-        id: 9,
+        id: 10,
         category: "design",
         title: "Cutrubus Buy Vs Lease Page",
         tools: [
@@ -124,7 +140,7 @@ export default [
         projectImg: "buy-vs-lease-full.jpg",
     },
     {
-        id: 10,
+        id: 11,
         category: "design",
         title: "Zook Motor's History Page",
         tools: [

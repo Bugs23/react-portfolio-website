@@ -1,7 +1,7 @@
-import { BsHourglassTop, BsBriefcaseFill } from "react-icons/bs";
-import { FaHourglassStart } from "react-icons/fa";
+import { BsHourglassTop, BsBriefcaseFill } from "react-icons/bs"
+import { FaHourglassStart } from "react-icons/fa"
 
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component'
 
 export default function Experience() {
     return (

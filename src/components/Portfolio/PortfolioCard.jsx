@@ -1,4 +1,4 @@
-import { useInView } from 'react-intersection-observer';
+import { useInView } from 'react-intersection-observer'
 
 export default function PortfolioCard(props) {
 
@@ -8,9 +8,7 @@ export default function PortfolioCard(props) {
         threshold: 0.2
     }
 
-    const { ref: ref1, inView: inView1 } = useInView(inViewOptions);
-
-    const { ref: ref2, inView: inView2 } = useInView(inViewOptions);
+    const { ref: ref1, inView: inView1, ref: ref2, inView: inView2 } = useInView(inViewOptions);
 
 	return (
 		<div className={`portfolio-card pt-4 ${props.reverse ? 'reverse' : ''}`}>

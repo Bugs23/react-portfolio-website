@@ -1,7 +1,7 @@
 import {useState} from "react"
-import {Link} from "react-scroll";
+import {Link} from "react-scroll"
 
-import logo from "/images/ru-logo.png";
+import logo from "/images/ru-logo.png"
 
 export default function Navbar() {
 

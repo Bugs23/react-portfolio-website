@@ -1,6 +1,6 @@
-import { useInView } from 'react-intersection-observer';
-import Typewriter from "typewriter-effect";
-import { FaLaptopCode } from "react-icons/fa";
+import { useInView } from 'react-intersection-observer'
+import Typewriter from "typewriter-effect"
+import { FaLaptopCode } from "react-icons/fa"
 
 export default function Header() {
 
@@ -8,7 +8,7 @@ export default function Header() {
     const { ref, inView } = useInView({
         triggerOnce: true,
         threshold: 0
-    });
+    })
 
     return (
         <div id="home" className="header-wrapper">

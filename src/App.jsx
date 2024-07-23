@@ -1,5 +1,4 @@
 import './App.css'
-import {BrowserRouter as Router, Link} from "react-router-dom"
 
 /* COMPONENTS */
 import Navbar from "./components/Navbar"

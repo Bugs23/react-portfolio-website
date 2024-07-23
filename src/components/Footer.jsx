@@ -1,4 +1,4 @@
-import { useInView } from 'react-intersection-observer';
+import { useInView } from 'react-intersection-observer'
 
 export default function Footer() {
 
@@ -6,7 +6,7 @@ export default function Footer() {
     const { ref, inView } = useInView({
         triggerOnce: true,
         threshold: 0.2
-    });
+    })
 
     return (
         <footer className="footer">

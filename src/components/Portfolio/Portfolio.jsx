@@ -1,6 +1,7 @@
 import {useEffect, useState} from "react"
-import PortfolioCard from "./PortfolioCard";
-import projectData from "./projectData";
+import PortfolioCard from "./PortfolioCard"
+import projectData from "./projectData"
+import "./Portfolio.css"
 
 export default function Portfolio() {
 

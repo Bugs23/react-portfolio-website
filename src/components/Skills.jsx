@@ -1,13 +1,8 @@
-import { useInView } from 'react-intersection-observer';
+import { useInView } from "react-intersection-observer"
 
 /* ICONS */
-import { DiHtml5 } from "react-icons/di";
-import { DiCss3 } from "react-icons/di";
-import { DiJavascript } from "react-icons/di";
-import { DiReact } from "react-icons/di";
-import { DiBootstrap } from "react-icons/di";
-import { DiPhotoshop } from "react-icons/di";
-import { DiIllustrator } from "react-icons/di";
+import { DiHtml5, DiCss3, DiJavascript, DiReact, DiBootstrap, DiPhotoshop, DiIllustrator} from "react-icons/di"
+import { SiTailwindcss } from "react-icons/si"
 
 
 export default function Skills() {
@@ -18,19 +13,16 @@ export default function Skills() {
         threshold: 0.2
     }
 
-    const { ref: ref1, inView: inView1 } = useInView(inViewOptions);
-
-    const { ref: ref2, inView: inView2 } = useInView(inViewOptions);
-
-    const { ref: ref3, inView: inView3 } = useInView(inViewOptions);
-
-    const { ref: ref4, inView: inView4 } = useInView(inViewOptions);
-
-    const { ref: ref5, inView: inView5 } = useInView(inViewOptions);
-
-    const { ref: ref6, inView: inView6 } = useInView(inViewOptions);
-    
-    const { ref: ref7, inView: inView7 } = useInView(inViewOptions);
+    const { 
+        ref: ref1, inView: inView1, 
+        ref: ref2, inView: inView2, 
+        ref: ref3, inView: inView3, 
+        ref: ref4, inView: inView4,
+        ref: ref5, inView: inView5,
+        ref: ref6, inView: inView6,
+        ref: ref7, inView: inView7,
+        ref: ref8, inView: inView8 
+    } = useInView(inViewOptions)
 
     return (
         <div id="skills" className="skills section-wrapper">
@@ -58,20 +50,25 @@ export default function Skills() {
                     </div>
                     
                     <div className={`skills-tile text-center rounded bg-dark p-2 ${inView5 ? 'bounce-in-left' : 'hidden-effect'}`} ref={ref5}>
+                        <SiTailwindcss className="skills-icon" />
+                        <p className="mb-2">TAILWIND</p>
+                    </div>
+                    <div className={`skills-tile text-center rounded bg-dark p-2 ${inView5 ? 'bounce-in-right' : 'hidden-effect'}`} ref={ref6}>
                         <DiBootstrap className="skills-icon" />
                         <p className="mb-2">BOOTSTRAP</p>
                     </div>
                     
-                    <div className={`skills-tile text-center rounded bg-dark p-2 ${inView6 ? 'bounce-in-right' : 'hidden-effect'}`} ref={ref6}>
+                    <div className={`skills-tile text-center rounded bg-dark p-2 ${inView6 ? 'bounce-in-left' : 'hidden-effect'}`} ref={ref7}>
                         <DiPhotoshop className="skills-icon" />
                         <p className="mb-2">PHOTOSHOP</p>
                     </div>
                     
-                    <div className={`skills-tile text-center rounded bg-dark p-2 ${inView7 ? 'bounce-in-left' : 'hidden-effect'}`} ref={ref7}>
+                    <div className={`skills-tile text-center rounded bg-dark p-2 ${inView7 ? 'bounce-in-right' : 'hidden-effect'}`} ref={ref8}>
                         <DiIllustrator className="skills-icon" />
                         <p className="mb-2">ILLUSTRATOR</p>
                     </div>
-                </div></div>
+                </div>
             </div>
+        </div>
     )
 }
