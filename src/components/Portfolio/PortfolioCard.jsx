@@ -1,4 +1,5 @@
 import { useInView } from 'react-intersection-observer'
+import { nanoid } from 'nanoid'
 
 export default function PortfolioCard(props) {
 
@@ -21,8 +22,8 @@ export default function PortfolioCard(props) {
             </div>
             <div className={`portfolio-card-item-2 ${inView2 ? 'bounce-in-left' : 'hidden-effect'}`} ref={ref2}>
                 <div className="portfolio-project-text pb-5 center-text">
-                    {props.tools.map((icon, i) =>
-                        <span key={i} className="me-2">
+                    {props.tools.map((icon) =>
+                        <span key={nanoid()} className="me-2">
                             <i className={`${icon} portfolio-icon`}></i>
                         </span>
                     )}

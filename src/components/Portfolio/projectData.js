@@ -1,6 +1,19 @@
 export default [
     {
-        id: 1,
+        category: "development",
+        title: "Van Life",
+        tools: [
+            "devicon-react-original",
+            "devicon-javascript-plain",
+            "devicon-html5-plain",
+            "devicon-css3-plain"
+        ],
+        description: "Van Life is a way for people to rent out camper vans for their next road trip adventure. It includes van filtering by type, active navlink styling so users can easily tell where they are in the user interface, protected routes so certain pages are only accessible if the user's logged in, and uses Firebase to store data.",
+        projectImg: "van-life.jpg",
+        repoUrl: "https://github.com/Bugs23/VanLife",
+        demoUrl: "https://frabjous-gelato-ee257c.netlify.app/"
+    },
+    {
         category: "development",
         title: "React Component Library",
         tools: [
@@ -8,7 +21,7 @@ export default [
             "devicon-javascript-plain",
             "devicon-html5-plain",
             "devicon-sass-original",
-            "devicon-tailwindcss-original"
+            "devicon-tailwindcss-plain-wordmark colored"
         ],
         description: "A library of custom reusable react components.",
         projectImg: "component-library.jpg",
@@ -16,7 +29,6 @@ export default [
         demoUrl: "https://sparkly-salamander-d438e6.netlify.app/"
     },
     {
-        id: 2,
         category: "development",
         title: "Movie Search",
         tools: [
@@ -31,22 +43,6 @@ export default [
         demoUrl: "https://spiffy-meerkat-555c1d.netlify.app"
     },
     {
-        id: 3,
-        category: "development",
-        title: "Meme Generator",
-        tools: [
-            "devicon-react-original",
-            "devicon-javascript-plain",
-            "devicon-html5-plain",
-            "devicon-css3-plain"
-        ],
-        description: "When first loaded the app reaches out the Imgflip API to get 100 of the most popular meme images at that time. Users have the ability to enter the text that shows up on top and bottom of the image, and also to click a button to randomly choose a new meme image.",
-        projectImg: "meme-generator.jpg",
-        repoUrl: "https://github.com/Bugs23/meme-generator",
-        demoUrl: "https://cheery-treacle-8efe5a.netlify.app"
-    },
-    {
-        id: 4,
         category: "development",
         title: "Notes App",
         tools: [
@@ -61,7 +57,6 @@ export default [
         demoUrl: "https://cheery-treacle-8efe5a.netlify.app"
     },
     {
-        id: 5,
         category: "development",
         title: "Pic Some",
         tools: [
@@ -76,7 +71,6 @@ export default [
         demoUrl: "https://guileless-tulumba-1aa7c2.netlify.app/"
     },
     {
-        id: 6,
         category: "design",
         title: "Boost Mobile Privacy Premium Landing Page",
         tools: [
@@ -88,7 +82,6 @@ export default [
         projectImg: "boost-privacy-premium.jpg"
     },
     {
-        id: 7,
         category: "design",
         title: "Boost Mobile Plans Page",
         tools: [
@@ -100,7 +93,6 @@ export default [
         projectImg: "boost-plans-page.jpg",
     },
     {
-        id: 8,
         category: "design",
         title: "Boost Mobile Offers Page",
         tools: [
@@ -112,7 +104,6 @@ export default [
         projectImg: "boost-offers-page.jpg",
     },
     {
-        id: 9,
         category: "design",
         title: "Jeep Wrangler Model Research Page",
         tools: [
@@ -126,7 +117,6 @@ export default [
         projectImg: "2018-jeep-wrangler.jpg"
     },
     {
-        id: 10,
         category: "design",
         title: "Cutrubus Buy Vs Lease Page",
         tools: [
@@ -140,7 +130,6 @@ export default [
         projectImg: "buy-vs-lease-full.jpg",
     },
     {
-        id: 11,
         category: "design",
         title: "Zook Motor's History Page",
         tools: [

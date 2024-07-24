@@ -9,7 +9,7 @@ import Experience from "./components/Experience"
 import About from "./components/About"
 import Footer from "./components/Footer"
 
-function App() {
+export default function App() {
     return (
         <>
             <Navbar />
@@ -22,5 +22,3 @@ function App() {
         </>
     )
 }
-
-export default App

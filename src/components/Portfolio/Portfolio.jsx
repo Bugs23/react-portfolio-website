@@ -3,6 +3,8 @@ import PortfolioCard from "./PortfolioCard"
 import projectData from "./projectData"
 import "./Portfolio.css"
 
+import { nanoid } from 'nanoid'
+
 export default function Portfolio() {
 
     // State for keeping track of the selected project category
@@ -37,7 +39,7 @@ export default function Portfolio() {
 
     const cardElements = filteredProjects.map((card, index) => (
         <PortfolioCard 
-            key={card.id}
+            key={nanoid()}
             reverse={!isMobile && index % 2 !== 0}
             {...card}
         />
