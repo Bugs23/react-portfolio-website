@@ -1,6 +1,20 @@
 export default [
     {
         category: "development",
+        title: "FitLab",
+        tools: [
+            "devicon-react-original",
+            "devicon-javascript-plain",
+            "devicon-html5-plain",
+            "devicon-css3-plain"
+        ],
+        description: "Built with React and styled with Tailwind CSS, FitLab is a workout builder that allows you to choose your workout split, the muscles you want to work, and the goal you want to work towards. It then creates a custom workout for you in a convenient and easy to use format, complete with a sets counter. ",
+        projectImg: "fitlab.jpg",
+        repoUrl: "https://github.com/Bugs23/FitLab",
+        demoUrl: "https://astounding-raindrop-d767ad.netlify.app/"
+    },
+    {
+        category: "development",
         title: "Van Life",
         tools: [
             "devicon-react-original",
@@ -41,20 +55,6 @@ export default [
         projectImg: "movie-search-app.jpg",
         repoUrl: "https://github.com/Bugs23/Movie-Search-App",
         demoUrl: "https://spiffy-meerkat-555c1d.netlify.app"
-    },
-    {
-        category: "development",
-        title: "Notes App",
-        tools: [
-            "devicon-react-original",
-            "devicon-javascript-plain",
-            "devicon-html5-plain",
-            "devicon-css3-plain"
-        ],
-        description: "Created with the react-mde package, this React Markdown Editor allows you to write new things into a note and switch back and forth between write and preview. The notes sync with your computers local storage to save every change to a note. When a note's modified, it's automatically placed at the top, so your most relevant notes are located close to the top of the list. Lastly you are able to delete notes that are no longer needed.",
-        projectImg: "notes-app.jpg",
-        repoUrl: "https://github.com/Bugs23/Notes-App",
-        demoUrl: "https://cheery-treacle-8efe5a.netlify.app"
     },
     {
         category: "development",

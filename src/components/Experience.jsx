@@ -1,4 +1,4 @@
-import { BsHourglassTop, BsBriefcaseFill } from "react-icons/bs"
+import { BsBriefcaseFill } from "react-icons/bs"
 import { FaHourglassStart } from "react-icons/fa"
 
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component'
