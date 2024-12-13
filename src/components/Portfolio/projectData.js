@@ -1,6 +1,22 @@
 export default [
     {
         category: "development",
+        title: "Daily Vibez",
+        tools: [
+            "devicon-nextjs-plain",
+            "devicon-react-original",
+            "devicon-javascript-plain",
+            "devicon-html5-plain",
+            "devicon-css3-plain",
+            "devicon-tailwindcss-plain-wordmark"
+        ],
+        description: "Built with Next.js and styled with Tailwind CSS, Daily Vibez is a daily mood tracker that allows user to track their moods daily to discover patterns and gain insights into their emotional well-being.",
+        projectImg: "dailyvibez.jpg",
+        repoUrl: "https://github.com/Bugs23/DailyVibez",
+        demoUrl: "https://daily-vibez.netlify.app/"
+    },
+    {
+        category: "development",
         title: "FitLab",
         tools: [
             "devicon-react-original",
