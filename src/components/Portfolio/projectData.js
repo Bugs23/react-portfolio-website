@@ -24,24 +24,10 @@ export default [
             "devicon-html5-plain",
             "devicon-css3-plain"
         ],
-        description: "Built with React and styled with Tailwind CSS, FitLab is a workout builder that allows you to choose your workout split, the muscles you want to work, and the goal you want to work towards. It then creates a custom workout for you in a convenient and easy to use format, complete with a sets counter. ",
+        description: "FitLab is a dynamic fitness application built with ReactJS and styled with Tailwind CSS. It helps users create personalized workout plans based on their fitness goals. Whether you're looking to build strength, improve endurance, or follow a specific workout split (like Push Pull Legs, Upper Lower), FitLab makes it easy to select muscle groups, adjust sets and reps, and track progress. The app is designed to cater to a variety of workout styles, offering flexibility and customization for every user. With an intuitive interface and responsive design, FitLab helps users stay on track with their fitness journey, providing them with a tailored and efficient training experience.",
         projectImg: "fitlab.jpg",
         repoUrl: "https://github.com/Bugs23/FitLab",
         demoUrl: "https://astounding-raindrop-d767ad.netlify.app/"
-    },
-    {
-        category: "development",
-        title: "Van Life",
-        tools: [
-            "devicon-react-original",
-            "devicon-javascript-plain",
-            "devicon-html5-plain",
-            "devicon-css3-plain"
-        ],
-        description: "Van Life is a way for people to rent out camper vans for their next road trip adventure. It includes van filtering by type, active navlink styling so users can easily tell where they are in the user interface, protected routes so certain pages are only accessible if the user's logged in, and uses Firebase to store data.",
-        projectImg: "van-life.jpg",
-        repoUrl: "https://github.com/Bugs23/VanLife",
-        demoUrl: "https://frabjous-gelato-ee257c.netlify.app/"
     },
     {
         category: "development",
@@ -71,20 +57,6 @@ export default [
         projectImg: "movie-search-app.jpg",
         repoUrl: "https://github.com/Bugs23/Movie-Search-App",
         demoUrl: "https://spiffy-meerkat-555c1d.netlify.app"
-    },
-    {
-        category: "development",
-        title: "Pic Some",
-        tools: [
-            "devicon-react-original",
-            "devicon-javascript-plain",
-            "devicon-html5-plain",
-            "devicon-css3-plain"
-        ],
-        description: "Pic Some's a mock photography ecommerce site. The idea is for someone to come to the Pic Some website, look at the images we have available and choose some of them to get ordered and printed. On the images page, images can be favorited and added to the cart. On the cart page you will see a list of the images you've added to the cart, you can remove images you no longer want, and you can see a total for what the items in your cart will cost. Lastly you can place an order, and it empties the cart.",
-        projectImg: "mock-photography-ecommerce-site.jpg",
-        repoUrl: "https://github.com/Bugs23/Mock-Photography-Ecommerce-Site",
-        demoUrl: "https://guileless-tulumba-1aa7c2.netlify.app/"
     },
     {
         category: "design",
