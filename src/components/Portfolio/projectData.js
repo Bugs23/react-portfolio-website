@@ -10,7 +10,7 @@ export default [
             "devicon-css3-plain",
             "devicon-tailwindcss-plain-wordmark"
         ],
-        description: "Built with Next.js and styled with Tailwind CSS, Daily Vibez is a daily mood tracker that allows user to track their moods daily to discover patterns and gain insights into their emotional well-being.",
+        description: "A mood-tracking app built with Next.js, Firebase, and styled with Tailwind CSS, allowing users to create an account and log their daily moods. The intuitive interface helps visualize emotional patterns over time, promoting self-awareness and mindfulness.",
         projectImg: "dailyvibez.jpg",
         repoUrl: "https://github.com/Bugs23/DailyVibez",
         demoUrl: "https://daily-vibez.netlify.app/"
