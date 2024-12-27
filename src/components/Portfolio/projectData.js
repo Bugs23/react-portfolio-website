@@ -27,7 +27,7 @@ export default [
         description: "FitLab is a dynamic fitness application built with ReactJS and styled with Tailwind CSS. It helps users create personalized workout plans based on their fitness goals. Whether you're looking to build strength, improve endurance, or follow a specific workout split (like Push Pull Legs, Upper Lower), FitLab makes it easy to select muscle groups, adjust sets and reps, and track progress. The app is designed to cater to a variety of workout styles, offering flexibility and customization for every user. With an intuitive interface and responsive design, FitLab helps users stay on track with their fitness journey, providing them with a tailored and efficient training experience.",
         projectImg: "fitlab.jpg",
         repoUrl: "https://github.com/Bugs23/FitLab",
-        demoUrl: "https://astounding-raindrop-d767ad.netlify.app/"
+        demoUrl: "https://getfitlab.netlify.app/"
     },
     {
         category: "development",
