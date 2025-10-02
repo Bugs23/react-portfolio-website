@@ -3,7 +3,7 @@ import './App.css'
 /* COMPONENTS */
 import Navbar from "./components/Navbar"
 import Header from "./components/Header"
-import Skills from "./components/Skills"
+import Skills from "./components/Skills/Skills"
 import Portfolio from "./components/Portfolio/Portfolio"
 import Experience from "./components/Experience"
 import About from "./components/About"
