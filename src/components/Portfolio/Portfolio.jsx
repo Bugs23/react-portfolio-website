@@ -18,7 +18,7 @@ export default function Portfolio() {
   }
 
   useEffect(() => {
-    // Check if the window width is less than or equal to 768px (or the desired breakpoint)
+    // Check if the window width is less than or equal to 768px
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 768);
     };
