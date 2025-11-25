@@ -38,7 +38,7 @@ export default [
       "devicon-tailwindcss-plain",
     ],
     description:
-      "VerbaAI is an AI-powered translation web app built with React, TypeScript, Vite, and Tailwind CSS, leveraging Google Gemini for real-time, natural-language translations. Users can input text, select a target language, and instantly receive accurate translations displayed in a clean, minimal interface.",
+      "VerbaAI is a fast, AI-powered translation app built with React, TypeScript, Vite, and Tailwind CSS. It delivers instant, natural-language translations using Google Gemini and includes a custom ThemeContext for seamless light/dark mode support, responsive UI components, and a polished, modern interface.",
     projectImg: "verbaai.jpg",
     repoUrl: "https://github.com/Bugs23/VerbaAI",
     demoUrl: "https://verba-ai.netlify.app/",
